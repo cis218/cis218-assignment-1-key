@@ -1,4 +1,56 @@
 {% extends 'base.html' %}
+{% block title %}
+Contact
+{% endblock title %}
 {% block content %}
 <h1>Contact</h1>
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">David Barnes</h2>
+        <div class="card-body">
+          <span>6767 W O Ave</span><br>
+          <span>Kalamazoo, MI 49009</span><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Email</h5>
+        <a href="mailto:dbarnes@kvcc.edu" class="btn btn-primary">
+          <i class="bi bi-envelope"></i>
+          Send Me A Message
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">LinkedIn</h5>
+        <a href="https://www.linkedin.com/in/djbarnes1/" class="btn btn-primary">
+          <i class="bi bi-github"></i>
+          Visit My LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">GitHub</h5>
+        <a href="https://github.com/DJBarnes" class="btn btn-primary">
+          <i class="bi bi-linkedin"></i>
+          Visit My GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock content %}
