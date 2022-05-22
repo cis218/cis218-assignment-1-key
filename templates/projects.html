@@ -1,4 +1,106 @@
 {% extends 'base.html' %}
+{% block title %}
+Projects
+{% endblock title %}
 {% block content %}
 <h1>Projects</h1>
+<div class="row align-items-md-stretch">
+  <div class="col-md-12">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>MWC3 Midwest Collegiate Computing Conference</h2>
+      <p>
+        Website and application used both before and during the conference for marketing,
+        registration, annoucements, and competition judging
+      </p>
+      <ul>
+        <li>UN: admin@example.com</li>
+        <li>PW: password</li>
+      </ul>
+      <a href="https://mwc3.org" class="btn btn-outline-secondary" target="_blank">Visit Site</a>
+      <a href="http://mwc3.barnesbrothers.net/login" class="btn btn-outline-secondary" target="_blank">Backend Demo</a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>CAE Web</h2>
+      <p>
+        Application that provides room scheduling for 34 rooms at WMU's College of Engineering
+        and Applied Sciences, an inventory control system, log entry for AV equipment work,
+        and an employee section that provides clocking in and out, work scheduling, and timesheet management.
+      </p>
+      <ul>
+        <li>UN: admin1</li>
+        <li>PW: password</li>
+      </ul>
+      <a href="http://caeweb.barnesbrothers.net" class="btn btn-outline-secondary" target="_blank">Demo</a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Paw Paw Wine Distributors</h2>
+      <p>
+        In development application to keep track of warehouse inventory amounts
+        and locations for Paw Paw Wine Distributors.
+        Features include: Tracking movement of stock between trucks, warehouse locations,
+        and delivery staging areas. Generate various related reports.
+      </p>
+      <ul>
+        <li>UN: admin</li>
+        <li>PW: laravel4</li>
+      </ul>
+      <a href="http://ppwd.barnesbrothers.net" class="btn btn-outline-secondary" target="_blank">Demo</a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Temperature Converter</h2>
+      <p>
+        A temperature converter based on the first assignment for WMU's Spring 2018 CS5560 MEAN Stack Class.
+        The program is only using node, express, html, and css. There is no mongodb or angular being used.
+        Future plans are to convert it to use Angular at some point.
+      </p>
+      <a href="https://github.com/DJBarnes/temperature-converter" class="btn btn-outline-secondary" target="_blank">Github Code</a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Note Taker</h2>
+      <p>
+        A Note Taker Application based on the third assignment for WMU's Spring 2018 CS5560 MEAN Stack class.
+        The program is using node, express, mongodb, mongoose, html, css, and some client side js.
+      </p>
+      <a href="https://github.com/DJBarnes/note-taker-part-deux" class="btn btn-outline-secondary" target="_blank">Github Code</a>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Django Dump & Die</h2>
+      <p>
+        Django App providing a mechanism for extracting the details of any python variable and dumping it to the browser.
+        This is effectively a debugging tool, used to quickly and easily output an object's full data to screen.
+        Inspired by the dump and dump/die functionality from Symfony / Laravel.
+      </p>
+      <a href="https://github.com/DJBarnes/django-dump-die" class="btn btn-outline-secondary" target="_blank">Github Code</a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3">
+      <h2>Django AdminLTE2</h2>
+      <p>
+        Django-AdminLTE-2 is a Django app to easily style all pages and the admin with AdminLTE2.
+        Additionally there are tools, utilities and additional CSS options to aid in the rapid development of a site.
+      </p>
+      <a href="https://github.com/DJBarnes/django-adminlte-2" class="btn btn-outline-secondary" target="_blank">Github Code</a>
+    </div>
+  </div>
+</div>
 {% endblock content %}
